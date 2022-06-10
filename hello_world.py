@@ -1,4 +1,7 @@
 from urllib.request import urlopen
+import pip
+pip.main(['install', bs4]
+
 from bs4 import BeautifulSoup
 import re
 
