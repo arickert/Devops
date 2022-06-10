@@ -1,6 +1,6 @@
 from urllib.request import urlopen
 import pip
-pip.main(['install', 'bs4'])
+pip.main(['install', 'beautifulsoup4'])
 
 from bs4 import BeautifulSoup
 import re
